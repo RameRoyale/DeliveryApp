@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1645569178_19-abrakadabra-fun-p.png" />
+    <None Remove="cerf.png" />
+    <None Remove="icons8_customer_30px.png" />
+    <None Remove="icons8_password_64px.png" />
+    <None Remove="png-transparent-computer-icons-u.png" />
+    <None Remove="апельсинчик.png" />
+    <None Remove="палка.png" />
+    <None Remove="текст.png" />
+    <None Remove="Шар.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8_password_64px.png" />
+    <Resource Include="Pictures\1645569178_19-abrakadabra-fun-p.png" />
+    <Resource Include="Pictures\cerf.png" />
+    <Resource Include="Pictures\icons8_customer_30px.png" />
+    <Resource Include="Pictures\png-transparent-computer-icons-u.png" />
+    <Resource Include="Pictures\апельсинчик.png" />
+    <Resource Include="Pictures\палка.png" />
+    <Resource Include="Pictures\текст.png" />
+    <Resource Include="Pictures\Шар.png" />
+  </ItemGroup>
+
+</Project>
